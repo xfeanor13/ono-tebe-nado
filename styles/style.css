@@ -16,7 +16,6 @@ body {
 .header {
   display: flex;
   padding: 92px 24px 96px 24px;
-  display: flex;
   box-sizing: content-box;
   width: 1052px;
   height: 105px;
@@ -125,7 +124,7 @@ body {
   flex-direction: column;
   position: relative;
   height: 757px;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   box-sizing: border-box;
   background-position: center;
   background-size: cover;
@@ -324,7 +323,7 @@ body {
 }
 
 .first_block {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
   background-position: center;
   background-size: cover;
   width: 334px;
@@ -366,7 +365,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
   background-position: center;
   background-size: cover;
   width: 334px;
@@ -401,7 +400,7 @@ body {
 }
 
 .third_block {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
   background-position: center;
   background-size: cover;
   width: 334px;
