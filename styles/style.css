@@ -14,9 +14,11 @@ body {
 }
 
 .header {
+  display: flex;
   padding: 92px 24px 96px 24px;
   display: flex;
   box-sizing: content-box;
+  width: 1052px;
   height: 105px;
   /*justify-content: space-around;*/
   /*align-items: start;*/
@@ -133,7 +135,7 @@ body {
   /*margin: 293px 0px 1978px 0px;*/
 }
 
-/*.overlay {
+.overlay {
   position: absolute;
   display: flex;
   background-color: #000000;
@@ -141,7 +143,7 @@ body {
   height: 100%;
   z-index: -1;
   opacity: 0.6;
-}*/
+}
 
 .cover_all {
   margin-top: 165px;
@@ -332,6 +334,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 .first_block_title {
@@ -340,8 +343,9 @@ body {
   font-weight: 700;
   line-height: 26.4px;
   text-align: left;
-  margin-top: 51px;
   margin-left: 40px;
+  margin-top: 51px;
+  margin-right: 40px;
   text-transform: uppercase;
   color: white;
   text-decoration: underline;
@@ -382,6 +386,7 @@ body {
   height: 110px;
   margin-top: 51px;
   margin-left: 40px;
+  margin-right: 40px;
   color: white;
   text-decoration: underline;
   text-underline-offset: 3px;
@@ -419,6 +424,7 @@ body {
   height: 110px;
   margin-top: 51px;
   margin-left: 40px;
+  margin-right: 40px;
   text-decoration: underline;
   text-transform: uppercase;
   text-underline-offset: 3px;
