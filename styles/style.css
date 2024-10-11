@@ -8,6 +8,8 @@ body {
   box-sizing: border-box;
   width: 100%;
   max-width: 1100px;
+
+
   /*margin: auto;*/
 }
 
@@ -82,7 +84,7 @@ body {
   text-decoration: none;
   display: inline-block;
   margin-left: auto;
-  text-underline-offset: 3px; /*опускание подчеркивания*/
+  text-underline-offset: 4px; /*опускание подчеркивания*/
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
@@ -300,7 +302,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   box-sizing: border-box;
-  height: 692;
+  height: 692px;
 }
 
 .lots_title {
@@ -327,6 +329,9 @@ body {
   height: 563px;
   position: relative;
   z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .first_block_title {
@@ -348,9 +353,9 @@ body {
 }
 
 .first_block_text {
-  margin-top: 238px;
   margin-left: 40px;
   margin-right: 40px;
+  margin-bottom: 48px;
 }
 
 .second_block {
@@ -398,6 +403,9 @@ body {
   height: 563px;
   position: relative;
   z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .third_block_title {
@@ -429,7 +437,6 @@ body {
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 48px;
-  margin-top: 90px;
 }
 
 .more_about_lots {
