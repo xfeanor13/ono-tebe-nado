@@ -1,21 +1,23 @@
 body {
-  margin: 0;
+  margin: auto;
   width: 1100px;
+ /* outline: 1px red solid;*/
 }
 
 .content_qwe {
   box-sizing: border-box;
   width: 100%;
   max-width: 1100px;
-
+  
   /*margin: auto;*/
 }
 
 .header {
   display: flex;
   padding: 92px 24px 96px 24px;
-  box-sizing: content-box;
-  width: 1052px;
+  box-sizing: border-box;
+  min-width: 1052px;
+  
   /*height: 105px;*/
   /*justify-content: space-around;*/
   /*align-items: start;*/
@@ -32,8 +34,8 @@ body {
   display: flex;
   /*padding: 44px 634px 39px 26.52;*/
   gap: 0px;
-  border: 1px 0px 0px 0px;
-  opacity: 0px;
+
+  
 }
 
 .header_menu_list {
@@ -55,9 +57,10 @@ body {
   /*white-space: nowrap;*/
 }
 
-.ul .header_menu_link_active {
+ul .header_menu_link_active {
   list-style-type: none;
 }
+
 
 .header_menu_link_active .header_menu_link {
   text-decoration: none;
@@ -68,20 +71,23 @@ body {
   /*justify-content: end;*/
   /*align-items: center;*/
   max-width: 240.52px;
+  min-width: 240.52px;
   /*height: 98px;*/
   box-sizing: border-box;
+  
 }
 
 .address_header_parameters {
   margin-top: 5px;
   margin-left: 184px;
+  
 }
 
 .address_list {
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
-  margin-left: auto;
+ 
   text-underline-offset: 4px; /*опускание подчеркивания*/
   font-family: Raleway, Arial, sans-serif;
   font-size: 18px;
@@ -131,17 +137,8 @@ body {
   /*margin: 293px 0px 1978px 0px;*/
 }
 
-/*.cover_all {
-  margin-top: 165px;
-  margin-left: 50px;
-  width: 1000px;
-  height: 355px;
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-}*/
-
 .overlay {
+  box-sizing: border-box;
   position: absolute;
   inset: 0;
   background-color: #000000;
@@ -149,6 +146,7 @@ body {
   height: 100%;
   z-index: -1;
   opacity: 0.6;
+  
 }
 .cover_title {
   padding-top: 165px;
@@ -243,6 +241,10 @@ body {
   text-align: right;
 }
 
+.letter_none {
+  letter-spacing: 0;
+}
+
 .cover_subline {
   width: 1100px;
   display: flex;
@@ -294,6 +296,7 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   box-sizing: border-box;
+  
 }
 
 .lots_title {
@@ -338,10 +341,7 @@ body {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.films_link {
-  min-height: 100%;
-}
-.pictures_link {
+.links_about_cards {
   min-height: 100%;
 }
 
@@ -395,6 +395,7 @@ body {
   margin: 146px 24px 0px 24px;
   display: flex;
   box-sizing: border-box;
+  
 }
 
 .about_auction_logo_background {
@@ -423,7 +424,6 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  width: 693px;
   margin-top: 133px;
   margin-left: 72px;
 }
@@ -446,11 +446,11 @@ body {
   flex-direction: column;
   gap: 24px;
   box-sizing: border-box;
+  max-width: 693px;
 }
 
 .about_auction_detailed {
   display: flex;
-  max-width: 688px;
   width: 100%;
   font-family: Raleway, Arial, sans-serif;
   font-size: 20px;
@@ -459,16 +459,6 @@ body {
   letter-spacing: 0.01em;
   text-align: left;
   box-sizing: border-box;
-}
-
-.about_auction_detailed_next {
-  max-width: 693px;
-  width: 100%;
-  font-family: Raleway, Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
 }
 
 .footer {
@@ -487,6 +477,7 @@ body {
   line-height: 24.3px;
   text-align: left;
   text-underline-offset: 4px;
+  
   /*white-space: nowrap;*/
 }
 
@@ -501,6 +492,7 @@ body {
   font-weight: 400;
   line-height: 21.13px;
   text-align: center;
+  
 }
 
 .footer_menu_link_active .footer_menu_link {
